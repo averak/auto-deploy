@@ -31,6 +31,7 @@ def deploy():
 
     result['status'] = 'OK'
     result['message'] = 'success'
+    return result, 200
 
 
 if __name__ == '__main__':
