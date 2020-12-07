@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 flask = "*"
-flask_jwt = "*"
 
 [dev-packages]
 flake8 = "*"
