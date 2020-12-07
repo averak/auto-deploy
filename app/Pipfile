@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask_jwt = "*"
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+start = "flask run --port=4001 --host=0.0.0.0"
+format = "autopep8 -ivr ."
+lint = "flake8 --show-source --ignore=E501 ."
