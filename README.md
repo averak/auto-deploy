@@ -11,9 +11,10 @@
 
 ```sh
 $ git clone <this repo>
-$ cd <this repo>/app
+$ cd <this repo>
 
-# you need to create .env file
+$ mv sample.env .env
+# you need to set access token in .env
 $ pipenv install
 ```
 
