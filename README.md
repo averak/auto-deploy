@@ -1,5 +1,6 @@
 # auto-deploy
 
+![deploy](https://github.com/averak/auto-deploy/workflows/deploy/badge.svg)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 ## Requiremenst
