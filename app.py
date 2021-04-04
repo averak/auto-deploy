@@ -38,4 +38,4 @@ if __name__ == '__main__':
     if 'TOKEN' not in os.environ:
         raise Exception('トークンを配置してください')
 
-    app.run(debug=True)
+    app.run(debug=False)
