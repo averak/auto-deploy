@@ -26,8 +26,8 @@ def deploy():
     else:
         # トークン認証に失敗
         result['status'] = 'NG'
-        result['message'] = 'Unauthorized token'
-        return result, 401
+        result['message'] = 'Invalid access token'
+        return result, 403
 
     result['status'] = 'OK'
     result['message'] = 'success'
